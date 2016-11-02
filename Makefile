@@ -16,9 +16,12 @@ SRC	=	main.c			\
 		$(SPATH)asm_strlen.s	\
 		$(SPATH)asm_putstr.s	\
 		$(SPATH)asm_memset.s	\
-		$(SPATH)asm_memset2.s	\
+		$(SPATH)asm_nmemset.s	\
 		$(SPATH)asm_writeData.s \
-		asm_ptr.s
+		$(SPATH)asm_strchr.s	\
+		$(SPATH)asm_strrchr.s	\
+		$(SPATH)asm_memcpy.s	\
+		$(SPATH)asm_memmove.s	\
 
 OBJ	=	$(SRC:.s=.o)
 

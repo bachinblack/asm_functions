@@ -3,6 +3,7 @@
 	.type asm_strlen, @function
 
 asm_strlen:
+	mov %rdi,%rax
 	mov $0x0,%rcx
 _loop:
 	mov (%rdi),%cl
